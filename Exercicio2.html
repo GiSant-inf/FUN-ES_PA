@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        function diferenca (a,b){
+             if (a<b)
+            {
+                res=b-a
+
+                if (a>b)
+                {
+                   res=a-b
+                
+                }
+                else 
+                {
+                   res=0
+                }
+            }
+               return (res)
+         }
+    
+          var valor1, valor2
+         valor1=parseInt(prompt("digite um primeiro numero"))
+         valor2=parseInt(prompt("digite o segundo numero"))
+
+         alert("a diferença desses numeros é: "+diferenca(valor1, valor2))
+
+    </script>
+</body>
+</html>

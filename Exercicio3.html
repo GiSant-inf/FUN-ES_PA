@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+         function triangulo (a,b,c){
+             var triangulo
+          
+             if (a<b+c&&b<a+c&&c<a+b)
+            {
+                if (a==b&&b==c)
+                {
+                    triangulo="é equilatero"
+                }
+                else if (a==b, a==c,b==c)
+                {
+                    triangulo="é isosceles"
+                }
+                else
+                {
+                    triangulo="é escaleno"
+                }
+            }
+            else 
+            {
+                triangulo="não existe, pois seus lados não formam um triangulo"
+            }
+         }
+               
+              
+           
+        
+          var a1, b2, c3
+         a1=parseInt(prompt("digite o valor a do triangulo"))
+         b2=parseInt(prompt("digite o valor b do triangulo"))
+         c3=parseInt(prompt("digite o valor c do triangulo"))
+         alert("esse triangulo "+triangulo(a1,b2,b3))
+
+    </script>
+</body>
+</html>
